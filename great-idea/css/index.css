@@ -85,18 +85,23 @@ a {
 border: 1px solid red;
 margin: 0 auto;
 width: 90%;
+
  }
 
  .jumbotron {
-	display: flex;
-	justify-content: center;
-	
+	display: inline-flex;
+	justify-content: space-between;
+	 width: 90%;
+	  height: 90%;
+	  
  }
 
  .jumbotron-left {
 	 display: flex;
 	flex-direction: column;
-align-items: center;
+	align-items: center;
+	width: 80%;
+	
  }
  
 
@@ -106,20 +111,29 @@ align-items: center;
 	
  }
  .jumbotron img {
-	 width: 80%
+	 width: 90%;
+	 padding: 10%
+	
 	
  }
  .top-content {
 	 display: flex;
 	 flex-direction: row;
+	 width: 90%;
+	 padding: 10%;
  }
 .middle-img {
-	justify-content: space-around;
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	 padding: 10%;
 }
 
 .bottom-content {
 	display: flex;
 	flex-direction: row;
+	width: 90%;
+	 padding: 10%;
 }
 .tagline {
 	font-size: 400%;
