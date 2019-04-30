@@ -88,9 +88,14 @@ nav a {
 .jumbotron-left {
 	flex-direction: column;
 	align-items: center;
-	
-}
+	}
 
+	.jumbotron-right{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+	}
 .door-bell {
 	height: 25px;
 	width: 100px;
@@ -104,8 +109,8 @@ nav a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding: 5% auto 5% auto;
-	margin: 5%
+	padding: 5%;
+	margin: 5%;
 }
 
 
@@ -121,6 +126,7 @@ nav a {
 .bottom-content {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	padding: 5%;
 	border-bottom: 1px solid black;
 }
@@ -131,7 +137,7 @@ nav a {
 	text-align: center;
 }
 address {
-	padding: 5%
+	padding: 5%;
 }
 
 footer {
