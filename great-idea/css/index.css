@@ -61,17 +61,14 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	display: flex;
-	margin-left: -0.5rem;
-	margin-right: -0.5rem;
-	margin-bottom: -1rem;
 	width: 90%;
+	justify-content: space-around;
 }
 
 nav a {
 	color: gray;
-	flex: 1 0 15%;
-	box-sizing: border-box;
-	padding: 0 0.5rem 1rem;
+
+	
 	text-decoration: none;
 }
 
@@ -82,7 +79,7 @@ nav a {
 }
 
 .jumbotron {
-	display: inline-flex;
+	display: flex;
 	justify-content: space-around;
 	align-content: baseline;
 	align-items: center;
@@ -100,6 +97,7 @@ nav a {
 
 button {
 	height: 25px;
+	width: 100px;
 }
 
 .jumbotron img {
@@ -109,28 +107,39 @@ button {
 .top-content {
 	display: flex;
 	flex-direction: row;
-	width: 90%;
-	padding: 10%;
+	justify-content: space-around;
+	padding: 5% auto 5% auto;
+	margin: 5%
 }
 
-.top-content div {}
+
 
 .middle-img {
-	display: block;
+	display: flex;
+	align-items: stretch;
 	margin: 0 auto;
 	width: 90%;
-	padding: 10%;
+	padding: 0%;
 }
 
 .bottom-content {
 	display: flex;
 	flex-direction: row;
-	width: 90%;
-	padding: 10%;
+	padding: 5%;
+	border-bottom: 1px solid black;
 }
 
 .tagline {
 	font-size: 400%;
 	flex-wrap: wrap;
 	text-align: center;
+}
+address {
+	padding: 5%
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 7%
 }
