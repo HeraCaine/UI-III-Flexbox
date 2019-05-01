@@ -67,7 +67,8 @@ nav {
 	display: flex;
 	align-items: center;
 	width: 95%;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	margin: 20px
 }
 
 nav a {
@@ -75,11 +76,7 @@ nav a {
 	text-decoration: none;
 }
 
-.home-container {
-	border: 1px solid red;
-	margin: 0 auto;
-	width: 90%;
-}
+
 
 .jumbotron {
 	display: flex;
@@ -149,5 +146,81 @@ address {
 footer {
 	display: flex;
 	justify-content: center;
-	margin: 7%
+	margin: 7%;
+}
+
+.boxes {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0px;
+	padding: 20px;
+	
+}
+
+.first-row {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.second-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.third-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.first-row div {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+.second-row div {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+
+.third-row div {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+.fourth-row {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	padding: 20px;
+}
+
+.fourth-row div {
+	flex-direction: column;
+
+}
+
+.services-info {
+	margin: 20px;
+	padding: 20px;
+}
+
+ul {
+	margin: 20px;
+}
+button {
+	width: 150px;
+	padding: 10px;
+  font-size: 12px;
+	border-radius: 2px;
+}
+
+.services-header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
